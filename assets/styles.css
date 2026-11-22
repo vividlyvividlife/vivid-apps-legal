@@ -87,6 +87,33 @@ a:focus-visible {
   border-radius: 4px;
 }
 
+.email-reveal {
+  display: inline;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--brand);
+  font: inherit;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  cursor: pointer;
+}
+
+.email-reveal:hover {
+  color: var(--brand-d);
+}
+
+.email-reveal:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+.foot .email-reveal {
+  text-decoration: none;
+}
+
 .top {
   display: flex;
   align-items: center;
